@@ -82,7 +82,7 @@ const ToolbarPlugin = () => {
   }
 
   const debouncedSave = useDebouncedCallback((content) => {
-    console.log(content)
+    //console.log(content)
   }, 500)
 
   useEffect(() => {
@@ -96,7 +96,7 @@ const ToolbarPlugin = () => {
           if (dirtyElements.size === 0 && dirtyLeaves.size === 0) {
             return
           }
-          debouncedSave(JSON.stringify(editorState))
+          //debouncedSave(JSON.stringify(editorState))
         }
       ),
       editor.registerCommand(

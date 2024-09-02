@@ -1,6 +1,5 @@
 'use client'
 
-import CreateBoardModal from '@/components/rich-text-editor/_components/modals/create-Board-modal'
 import CreateTableModal from '@/components/rich-text-editor/_components/modals/create-table-modal'
 import InsertImageModal from '@/components/rich-text-editor/_components/modals/insert-image-modal'
 import { useEffect, useState } from 'react'
@@ -21,7 +20,6 @@ export const ModalProvider = () => {
   return (
     <>
       <CreateTableModal />
-      <CreateBoardModal />
       <InsertImageModal />
     </>
   )

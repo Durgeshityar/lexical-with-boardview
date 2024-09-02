@@ -24,7 +24,7 @@ import ToolbarPlugin from './plugins/toolbar-plugin'
 import LoadState from './_components/load-state'
 import DraggableBlockPlugin from './plugins/dragable-block-plugin'
 import { ImageNode } from './nodes/ImageNode'
-import { CustomBlockNode, KanbanNode } from './nodes/blcokNode'
+import { KanbanNode } from './nodes/blcokNode'
 
 const theme: EditorThemeClasses = {
   text: {
